@@ -32,83 +32,139 @@
                   </Label>
                </children>
             </AnchorPane>
-            <JFXButton fx:id="dashboardBtn" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text="Dashboard" textFill="WHITE">
+            <JFXButton fx:id="dashboardBtn" alignment="BASELINE_LEFT" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text=" Dashboard" textFill="WHITE">
                <font>
                   <Font name="Segoe UI" size="21.0" />
                </font>
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/icons8_Combo_Chart_80px_1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
             </JFXButton>
-            <JFXButton fx:id="smsBtn" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text="SMS" textFill="WHITE">
+            <JFXButton fx:id="smsBtn" alignment="BASELINE_LEFT" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text=" SMS" textAlignment="JUSTIFY" textFill="WHITE">
                <font>
                   <Font name="Segoe UI" size="21.0" />
                </font>
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/icons8_Envelope_80px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
             </JFXButton>
-            <JFXButton fx:id="smsDirectBtn" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text="SMS Direct" textFill="WHITE">
+            <JFXButton fx:id="smsDirectBtn" alignment="BASELINE_LEFT" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text=" SMS Direct" textFill="WHITE">
                <font>
                   <Font name="Segoe UI" size="21.0" />
                </font>
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/icons8_SMS_80px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
             </JFXButton>
-            <JFXButton fx:id="databaseBtn" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text="Database" textFill="WHITE">
+            <JFXButton fx:id="databaseBtn" alignment="BASELINE_LEFT" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text=" Database" textFill="WHITE">
                <font>
                   <Font name="Segoe UI" size="21.0" />
                </font>
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="38.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/icons8_Database_80px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
             </JFXButton>
-            <JFXButton fx:id="servicesBtn" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text="Services" textFill="WHITE">
+            <JFXButton fx:id="servicesBtn" alignment="BASELINE_LEFT" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text=" Services" textFill="WHITE">
                <font>
                   <Font name="Segoe UI" size="21.0" />
                </font>
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/icons8_Services_80px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
             </JFXButton>
-            <JFXButton fx:id="administratorBtn" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text="Administrator" textFill="WHITE">
+            <JFXButton fx:id="administratorBtn" alignment="BASELINE_LEFT" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text=" Administrator" textFill="WHITE">
                <font>
                   <Font name="Segoe UI" size="21.0" />
                </font>
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/icons8_Administrative_Tools_80px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
             </JFXButton>
-            <JFXButton fx:id="helpBtn" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text="Help" textFill="WHITE">
+            <JFXButton fx:id="helpBtn" alignment="BASELINE_LEFT" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text=" Help" textFill="WHITE">
                <font>
                   <Font name="Segoe UI" size="21.0" />
                </font>
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/icons8_Help_80px_1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
             </JFXButton>
-            <JFXButton fx:id="aboutBtn" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text="About" textFill="WHITE">
+            <JFXButton fx:id="aboutBtn" alignment="BASELINE_LEFT" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text=" About" textFill="WHITE">
                <font>
                   <Font name="Segoe UI" size="21.0" />
                </font>
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/icons8_About_80px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
             </JFXButton>
          </children>
       </VBox>
       <AnchorPane fx:id="infoView" layoutX="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="779.0" />
-      <AnchorPane fx:id="dashboardView" layoutX="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="779.0" />
       <AnchorPane fx:id="smsView" layoutX="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="779.0" />
       <AnchorPane fx:id="smsDirectView" layoutX="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="779.0" />
       <AnchorPane fx:id="databaseView" layoutX="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="779.0" />
       <AnchorPane fx:id="servicesView" layoutX="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="779.0" />
       <AnchorPane fx:id="administratorView" layoutX="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="779.0" />
       <AnchorPane fx:id="helpView" layoutX="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="779.0" />
-      <AnchorPane fx:id="aboutView" layoutX="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="779.0">
+      <AnchorPane fx:id="aboutView" layoutX="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="779.0" />
+      <AnchorPane fx:id="dashboardView" layoutX="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="779.0">
          <children>
-            <AreaChart focusTraversable="true" layoutX="58.0" layoutY="14.0" prefHeight="317.0" prefWidth="656.0" style="-fx-background-color: #ffffff; -fx-border-color: #ffffff;" title="SMS sent statistics" titleSide="BOTTOM">
+            <AreaChart fx:id="smsGraph" focusTraversable="true" layoutX="58.0" layoutY="14.0" prefHeight="317.0" prefWidth="656.0" style="-fx-background-color: #ffffff; -fx-border-color: #ffffff;" title="SMS sent statistics" titleSide="BOTTOM">
               <xAxis>
                 <CategoryAxis label="Days" side="BOTTOM" />
               </xAxis>
@@ -144,12 +200,12 @@
                   <Font size="23.0" />
                </font>
             </Label>
-            <Label fx:id="creditsLeftLabel" layoutX="484.0" layoutY="480.0" text="1000">
+            <Label fx:id="creditsLeftLabel" layoutX="490.0" layoutY="480.0" text="0">
                <font>
                   <Font size="23.0" />
                </font>
             </Label>
-            <JFXButton layoutX="664.0" layoutY="534.0" ripplerFill="WHITE" style="-fx-background-color: #37AC68;" text="Refresh" textFill="WHITE">
+            <JFXButton fx:id="refreshBtn" layoutX="664.0" layoutY="534.0" ripplerFill="WHITE" style="-fx-background-color: #37AC68;" text="Refresh" textFill="WHITE">
                <font>
                   <Font size="20.0" />
                </font>
@@ -157,7 +213,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </JFXButton>
-            <ProgressIndicator layoutX="62.0" layoutY="379.0" progress="1.0" radius="80.0">
+            <ProgressIndicator fx:id="creditsGraph" layoutX="62.0" layoutY="379.0" progress="1.0" radius="80.0">
                <effect>
                   <ColorAdjust contrast="-0.74" hue="-0.47" saturation="1.0" />
                </effect>

@@ -30,10 +30,10 @@ public class Pingall extends Application {
 }
     
     //Serts dashboard on the Stage
-    public void setDashboard() throws Exception
+    public void setFrameView() throws Exception
     {
         Stage DashboardActivity = MainActivity;
-        Parent Dashboard = FXMLLoader.load(getClass().getResource("dashboard.fxml"));
+        Parent Dashboard = FXMLLoader.load(getClass().getResource("FrameView.fxml"));
         Scene scene = new Scene(Dashboard);
         DashboardActivity.setScene(scene);
         DashboardActivity.show();

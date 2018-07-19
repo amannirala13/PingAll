@@ -48,7 +48,7 @@ public class LoginController extends Pingall implements Initializable {
     private void loginBtnPressed(ActionEvent event) throws IOException, Exception {
         if(checkLogin())
         {
-            setDashboard();
+            setFrameView();
         
         }
         
