@@ -6,7 +6,10 @@
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
 <?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.effect.Shadow?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.HBox?>
@@ -108,20 +111,40 @@
                   <Image url="@../icons/icons8_Paper_Plane_104px.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="35.0" fitWidth="37.0" layoutX="572.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="35.0" fitWidth="37.0" layoutX="588.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../icons/icons8_Approval_104px.png" />
                </image>
+               <effect>
+                  <Lighting diffuseConstant="1.28" specularConstant="0.65" specularExponent="24.19" surfaceScale="2.56">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
             </ImageView>
             <ImageView fitHeight="61.0" fitWidth="61.0" layoutX="32.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../icons/icons8_SMS_104px.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="61.0" fitWidth="61.0" layoutX="528.0" layoutY="514.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="61.0" fitWidth="61.0" layoutX="544.0" layoutY="514.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../icons/icons8_Trophy_104px.png" />
                </image>
+               <effect>
+                  <Lighting diffuseConstant="1.28" specularConstant="0.65" specularExponent="24.19" surfaceScale="2.56">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
             </ImageView>
             <ImageView fitHeight="61.0" fitWidth="61.0" layoutX="418.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
                <image>

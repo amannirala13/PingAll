@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.ProgressIndicator?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.chart.AreaChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="600.0" prefWidth="221.0" style="-fx-background-color: #37AC68;">
+         <children>
+            <AnchorPane prefHeight="66.7" prefWidth="221.0" style="-fx-background-color: #226B41;">
+               <children>
+                  <ImageView fitHeight="51.0" fitWidth="52.0" layoutX="9.0" layoutY="7.0" pickOnBounds="true" smooth="false">
+                     <image>
+                        <Image url="@../icons/icons8_Male_User_80px_1.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="83.0" layoutY="18.0" text="Aman" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <JFXButton fx:id="dashboardBtn" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text="Dashboard" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="21.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton fx:id="smsBtn" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text="SMS" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="21.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton fx:id="smsDirectBtn" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text="SMS Direct" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="21.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton fx:id="databaseBtn" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text="Database" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="21.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton fx:id="servicesBtn" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text="Services" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="21.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton fx:id="administratorBtn" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text="Administrator" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="21.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton fx:id="helpBtn" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text="Help" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="21.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton fx:id="aboutBtn" prefHeight="66.7" prefWidth="221.0" ripplerFill="WHITE" text="About" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="21.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+         </children>
+      </VBox>
+      <AnchorPane fx:id="infoView" layoutX="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="779.0" />
+      <AnchorPane fx:id="dashboardView" layoutX="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="779.0" />
+      <AnchorPane fx:id="smsView" layoutX="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="779.0" />
+      <AnchorPane fx:id="smsDirectView" layoutX="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="779.0" />
+      <AnchorPane fx:id="databaseView" layoutX="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="779.0" />
+      <AnchorPane fx:id="servicesView" layoutX="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="779.0" />
+      <AnchorPane fx:id="administratorView" layoutX="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="779.0" />
+      <AnchorPane fx:id="helpView" layoutX="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="779.0" />
+      <AnchorPane fx:id="aboutView" layoutX="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="779.0">
+         <children>
+            <AreaChart focusTraversable="true" layoutX="58.0" layoutY="14.0" prefHeight="317.0" prefWidth="656.0" style="-fx-background-color: #ffffff; -fx-border-color: #ffffff;" title="SMS sent statistics" titleSide="BOTTOM">
+              <xAxis>
+                <CategoryAxis label="Days" side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis side="LEFT" />
+              </yAxis>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </AreaChart>
+            <Label layoutX="268.0" layoutY="412.0" text="Total SMS send : ">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="268.0" layoutY="446.0" text="Total credits used : ">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="268.0" layoutY="480.0" text="Total credits left : ">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="smsSendLabel" layoutX="490.0" layoutY="412.0" text="0">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="creditsUsedLabel" layoutX="490.0" layoutY="446.0" text="0">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="creditsLeftLabel" layoutX="484.0" layoutY="480.0" text="1000">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <JFXButton layoutX="664.0" layoutY="534.0" ripplerFill="WHITE" style="-fx-background-color: #37AC68;" text="Refresh" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <ProgressIndicator layoutX="62.0" layoutY="379.0" progress="1.0" radius="80.0">
+               <effect>
+                  <ColorAdjust contrast="-0.74" hue="-0.47" saturation="1.0" />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="NONE" />
+               </cursor>
+            </ProgressIndicator>
+            <Label layoutX="94.0" layoutY="448.0" text="Credits Left" textFill="#37ac68">
+               <font>
+                  <Font name="Segoe UI Semibold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

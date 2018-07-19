@@ -14,7 +14,7 @@ import javafx.fxml.Initializable;
  *
  * @author hp
  */
-public class DashboardController implements Initializable {
+public class FrameViewController implements Initializable {
 
     /**
      * Initializes the controller class.
