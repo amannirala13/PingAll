@@ -26,7 +26,7 @@ import javafx.scene.control.Hyperlink;
  */
 public class LoginController extends Pingall implements Initializable {
     
-      @FXML
+    @FXML
     private JFXTextField userid;
 
     @FXML
@@ -36,7 +36,11 @@ public class LoginController extends Pingall implements Initializable {
     private JFXButton loginBtn;
 
     @FXML
-    private Hyperlink signupBtn;
+    private Hyperlink Invalid_login;
+
+    @FXML
+    private JFXButton close_btn;
+
 
     
     
@@ -50,9 +54,14 @@ public class LoginController extends Pingall implements Initializable {
         
         else
         {
-                System.out.println("Not found");
+                Invalid_login.setText("Invalid login !");
                 }
     
+    }
+    @FXML
+    private void close_btnPressed(ActionEvent event)
+    {
+        System.exit(0);
     }
     
     private boolean checkLogin() throws SQLException, Exception

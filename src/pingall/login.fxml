@@ -157,7 +157,7 @@
                   <Cursor fx:constant="TEXT" />
                </cursor>
             </JFXPasswordField>
-            <JFXButton fx:id="loginBtn" layoutX="41.0" layoutY="302.0" onAction="#loginBtnPressed" prefHeight="44.0" prefWidth="192.0" ripplerFill="WHITE" style="-fx-background-color: #309459;" text="Login" textFill="WHITE">
+            <JFXButton fx:id="loginBtn" layoutX="41.0" layoutY="302.0" onAction="#loginBtnPressed" prefHeight="44.0" prefWidth="192.0" ripplerFill="WHITE" style="-fx-background-color: #309459; -fx-border-radius: 50; -fx-background-radius: 50;" text="Login" textFill="WHITE">
                <font>
                   <Font size="20.0" />
                </font>
@@ -165,11 +165,19 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </JFXButton>
-            <Hyperlink fx:id="signupBtn" accessibleHelp=" Sign up to a new account" accessibleText=" Sign up to a new account" layoutX="108.0" layoutY="367.0" opacity="0.8" text=" Sign up" textFill="WHITE" wrapText="true">
+            <Hyperlink fx:id="Invalid_login" accessibleHelp=" Sign up to a new account" accessibleText=" Sign up to a new account" layoutX="71.0" layoutY="366.0" minWidth="-Infinity" opacity="0.8" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" wrapText="true">
                <font>
-                  <Font size="14.0" />
+                  <Font size="20.0" />
                </font>
             </Hyperlink>
+            <JFXButton fx:id="close_btn" cancelButton="true" graphicTextGap="0.0" layoutX="231.0" onAction="#close_btnPressed" prefHeight="11.0" prefWidth="35.0" ripplerFill="WHITE" style="-fx-background-color: #FF0000;" text="X" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft YaHei" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
          </children>
       </Pane>
    </children>
